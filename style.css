@@ -1,0 +1,13 @@
+.firstPage {
+    background-color:#f0eeeb;
+}
+
+.header-brand{
+    width:120px;
+    height: auto;
+}
+
+.centered-link{
+    position: relative;
+    transform:translateX(100px); 
+}
