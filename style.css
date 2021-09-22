@@ -37,14 +37,25 @@
 
 /*                   First Page Content                  */
 
+.fs-contanier{
+    height: 100%;
+    padding : 3%;
+}
+
 .first-section-content{
-    margin : 60px;
+    padding : 1.5%;
+   
 }
 
 .fs-info{
+    margin: 4% 3% 3% auto  ;
     display:inline-block;
-    margin: ;
+    width:40%;
 
+}
+
+.fs-h1{
+    font-size:3.75;
 }
 
 .fs-img{
