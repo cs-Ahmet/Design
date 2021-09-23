@@ -1,63 +1,105 @@
 .firstPage {
-    background-color:#f0eeeb;
+  background-color: #f0eeeb;
 }
 
 /*                      Header                                */
-.header-brand{
-    width:120px;
-    height: auto;
+.header-brand {
+  width: 120px;
+  height: auto;
 }
 
-.centered-link{
-    position: relative;
-    transform:translateX(100px); 
+.centered-link {
+  position: relative;
+  transform: translateX(100px);
 }
 
-
-.container-fluid{
-    background-color:#f0eeeb;
+.container-fluid {
+  background-color: #f0eeeb;
 }
 
-.navbar{
-    background-color:#f0eeeb;
+.navbar {
+  background-color: #f0eeeb;
 }
 
-@media screen and (max-width: 360px){
-    .butons-container{
-        visibility: hidden;
-    }
+@media screen and (max-width: 360px) {
+  .butons-container {
+    visibility: hidden;
+  }
 
-    .navbar-toggler{
-         /* It has to be right side*/
-        position:absolute;
-        top:10px;    
-        right:20px;
-    }
+  .navbar-toggler {
+    /* It has to be right side*/
+    position: absolute;
+    top: 10px;
+    right: 20px;
+  }
 }
 
 /*                   First Page Content                  */
 
-.fs-contanier{
-    height: 100%;
-    padding : 3%;
+.fs-contanier {
+  height: 100%;
+  padding: 3%;
 }
 
-.first-section-content{
-    padding : 1.5%;
-   
+.first-section-content {
+  padding: 1.5%;
+}
+
+.fs-info {
+  margin: 4% 3% 3% auto;
+  display: inline-block;
+  width: 40%;
+}
+
+.fs-h1 {
+  font-size: 3.75;
+}
+
+.fs-img {
+  display: inline-block;
 }
 
 .fs-info{
-    margin: 4% 3% 3% auto  ;
-    display:inline-block;
+    float: left;
+    display: inline;
     width:40%;
-
 }
 
-.fs-h1{
-    font-size:3.75;
+.fs-img-container{
+    display: inline;
 }
 
-.fs-img{
-    display:inline-block;
+.fs-desktop-img {
+    display: none;
+    width:30%;
+    height:auto;
+  }
+  .fs-tablet-img {
+    width:100%;
+    height:auto;
+    display: none;
+  }
+  .fs-mobile-img {
+    width:100%;
+    height:auto;
+    display: none;
+  }
+
+@media screen and (max-width: 360px) {
+  .fs-mobile-img {
+    display: inline-block;
+  }
+  
+}
+
+@media screen and (max-width: 762px) {
+  .fs-tablet-img {
+    display: inline-block;
+  }
+}
+
+@media screen and (min-width:762px) {
+  .fs-desktop-img {
+    display: inline-block;
+  }
 }
