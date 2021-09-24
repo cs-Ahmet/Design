@@ -1,7 +1,7 @@
 .firstPage {
   background-color: #f0eeeb;
 }
-/*                      Header                                */
+/*--------------------------------------   Header   -----------------------------------*/
 .header-brand {
   width: 120px;
   height: auto;
@@ -19,7 +19,6 @@
 .navbar {
   background-color: #f0eeeb;
 }
-
 
 @media screen and (max-width: 360px) {
   .butons-container {
@@ -64,10 +63,16 @@
   margin: 4% 3% 3% auto;
 }
 
-.fs-p{
+.fs-p {
   margin-top: 30px;
   font-size: 1.2rem;
 }
+
+.input-text {
+  width: 220px;
+  height: 40px;
+}
+
 .fs-img-container {
   display: block;
   margin-right: 5px;
@@ -75,7 +80,7 @@
 
 .fs-desktop-img {
   display: none;
-  width: 30%;
+  width: 35%;
   height: auto;
   float: right;
   margin-right: 40px;
@@ -91,11 +96,10 @@
   width: 100%;
   height: auto;
   display: none;
-  
 }
 
-p i{
-  margin-right:10px;
+p i {
+  margin-right: 10px;
 }
 
 @media screen and (max-width: 360px) {
@@ -105,6 +109,31 @@ p i{
 }
 
 @media screen and (max-width: 762px) {
+  #flex {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #flex-1 {
+    order: 1;
+  }
+
+  #flex-2 {
+    order: 2;
+  }
+
+  .fs-info {
+    float: none;
+    display: inline;
+    width: 100%;
+    overflow: hidden;
+    margin: 4% 3% 3% auto;
+  }
+
+  .input-text {
+    width: 55%;
+  }
+
   .fs-tablet-img {
     display: inline-block;
   }
@@ -116,18 +145,46 @@ p i{
   }
 }
 
-.fp-button{
+.fp-button {
   float: left;
 }
 
-.input-text{
+.input-text {
   float: left;
   border: none; /* <-- This thing here */
-  border:solid 1px #ccc;
+  border: solid 1px #ccc;
   border-radius: 10px;
   margin-right: 10px;
 }
 
-.fs-button{
+/*--------------------------------------  Logo ------------------------- */
 
+.logo-container{
+  margin: 10px auto 30px ;
+  width: 90%;
+  height: 35px ;
+  display: flex;
+}
+
+.logo-container img{
+  
+  justify-content: space-evenly;
+  height: 100%;
+  margin: 20px auto;
+  margin-bottom: 100px;
+}
+
+@media screen and (max-width: 950px) {
+  .ss-logo2{
+    display:none;
+  }
+  .ss-logo4{
+    display:none;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .ss-logo1{
+    display:none;
+  }
 }
