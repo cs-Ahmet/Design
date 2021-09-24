@@ -119,3 +119,15 @@ p i{
 .fp-button{
   float: left;
 }
+
+.input-text{
+  float: left;
+  border: none; /* <-- This thing here */
+  border:solid 1px #ccc;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.fs-button{
+
+}
