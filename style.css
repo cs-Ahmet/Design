@@ -106,6 +106,7 @@ p i {
   .fs-mobile-img {
     display: inline-block;
   }
+  
 }
 
 @media screen and (max-width: 762px) {
@@ -137,6 +138,11 @@ p i {
   .fs-tablet-img {
     display: inline-block;
   }
+
+  .fs-mobile-img {
+    display: none;
+  }
+  
 }
 
 @media screen and (min-width: 762px) {
@@ -188,3 +194,64 @@ p i {
     display:none;
   }
 }
+
+/*--------------------------------------  ST(section three) ------------------------- */
+
+.st-container{
+  display:flex;
+}
+
+.st-container img{
+  justify-content:center;
+  margin:auto;  
+}
+
+@media screen and (max-width: 360px) {
+  
+  .st-mob{
+    display:inline-block;
+  }
+  
+  .st-tab{
+    display:none;
+  }
+  
+  .st-des{
+    display:none;
+  }
+  
+}
+
+@media screen and (max-width: 762px) {
+  .st-mob{
+    display:none;
+  }
+  
+  .st-tab{
+    display:inline-block;
+  }
+  
+  .st-des{
+    display:none;
+  }
+  
+  
+}
+
+@media screen and (min-width: 762px) {
+  .st-mob{
+    display:none;
+  }
+  
+  .st-tab{
+    display:none;
+  }
+
+  .st-des{
+    display:inline-block;
+  }
+
+  
+}
+
+  
