@@ -442,5 +442,38 @@ footer{
   position: relative;
   bottom: 0;
   width: 100%;
-  height: 50px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+footer div{
+  margin:5%;
+}
+
+footer p,li,ul{
+  color: white;
+}
+
+li a{
+  text-decoration:none;
+}
+
+footer ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer a:hover,a:visited{
+  color: hsl(60deg 0% 56%);
+ 
+}
+
+.f-sense h1 , .f-sense p{
+  color:#fff;
+}
+
+.f-sense{
+  width:400px;
 }
